@@ -1,8 +1,10 @@
+
+
 This repository is dedicated to improving my NLP expertise.
 It consists of original papers, my learning materials, my codes, among other useful links. 
 With the NLP space changing ever so rapidly, this is my humble attempt to at least be aware of most of it and get to the bottom of the most important ones.
 
-Courses to finish:
+## Courses to finish:
 
 * DL Specialization (completed by me): https://www.coursera.org/specializations/deep-learning
 * High difficulty (not pursuing yet): Best NLP Course ever! Mastering this would give the latest knowledge in NLP possible  
@@ -13,6 +15,7 @@ Courses to finish:
     - https://www.udemy.com/natural-language-processing-with-deep-learning-in-python/
     - https://www.udemy.com/deep-learning-advanced-nlp/
 
+## Good Resources
 
 A Good PyTorch Book (for further exploration at any stage of the below learning)
 Book: https://pytorch.org/assets/deep-learning/Deep-Learning-with-PyTorch.pdf 
@@ -112,3 +115,14 @@ XLNET:
  
 NLP Kaggle Reading Group Series:
 - https://www.youtube.com/watch?v=I82arEIPP6U&list=PLqFaTIg4myu8t5ycqvp7I07jTjol3RCl9&index=25
+
+## Some NLP Projects I have executed at varied depths in my Professional Career:
+
+| NLP Task | Description | Type of Task |
+|-|-|-|
+| Sequence   Classification | Given a sentence, I have classified it   based on pre-defined set of labels (e.g. Aspect-based Sentiment   classification) | Supervised |
+| Named Entity Recognition | Given a sentence,  attribute   individual words to the entity classes they belong to (e.g.: Jason   <PERSON> bought Focus <NAMEPLATE> from Dearborn Ford   <DEALERNAME>); | Supervised |
+| Intent Detection and Slots Filing | (part of a retrieval-based chatbot engine) Given a sentence , identify   the intents and slots (e.g.: -- (mostly as a query in a chatbot setting)   Where can I find CAD designs for steering? INTENT - CAD_design_info; SLOT -   Part_steering_wheel) | Supervised |
+| Extractive Question Answering System | Given single or multiple PDFs/ docs/ markdowns, questions relevant to   that content can be answered by retrieving the correct span of text from the   uploaded PDFs. Adapted from this [open-source   repo](https://github.com/deepset-ai/haystack) | pre-trained (no-labeled data needed) OR pre-trained+fine-tuned (custom   dataset fine-tuned) |
+| Semantic Text Retrieval Engine | Given a collection of unlabeled comments, can group them into   clusters/topics based on their similarity/co-occurrence; and identify the top   words that describe the cluster | Unsupervised |
+| Clustering, Topic Modeling &   Summarization: | Given a collection of unlabeled comments, can group them into   clusters/topics based on their similarity/co-occurrence; and identify the top   words that describe the cluster. Summarize the information in the clusters   using Summarization module. Adapted from open-source [code1](https://radimrehurek.com/gensim/auto_examples/tutorials/run_summarization.html#sphx-glr-auto-examples-tutorials-run-summarization-py)   and   [code2](https://huggingface.co/transformers/task_summary.html#summarization) | Unsupervised |
